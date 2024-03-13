@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\luca.la-malfa\\Downloads\\npgsql\\TestProject1\\NpgSql8_JsonNet_Bug\\NpgSql8_JsonNet_Bug.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\luca.la-malfa\\Downloads\\npgsql\\TestProject1\\NpgSql8_JsonNet_Bug\\NpgSql8_JsonNet_Bug.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luca.la-malfa\\Downloads\\npgsql\\TestProject1\\NpgSql8_JsonNet_Bug\\NpgSql8_JsonNet_Bug.csproj",
+        "projectName": "NpgSql8_JsonNet_Bug",
+        "projectPath": "C:\\Users\\luca.la-malfa\\Downloads\\npgsql\\TestProject1\\NpgSql8_JsonNet_Bug\\NpgSql8_JsonNet_Bug.csproj",
+        "packagesPath": "C:\\Users\\luca.la-malfa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luca.la-malfa\\Downloads\\npgsql\\TestProject1\\NpgSql8_JsonNet_Bug\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\luca.la-malfa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.151, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Npgsql.Json.NET": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
